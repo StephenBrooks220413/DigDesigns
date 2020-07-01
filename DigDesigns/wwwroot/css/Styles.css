@@ -1,0 +1,32 @@
+﻿.bg-header {
+    background: rgb(240,172,3);
+    background: radial-gradient(circle, rgba(240,172,3,0.5609594179468662) 38%, rgba(243,226,176,0.9732842966288078) 54%);
+    width: 100%;
+    height: 30vh;
+    padding-top: 140px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 190px;
+    margin-top: 190px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+body {
+    background: url(../assets/SleekDesigns.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li { 
+    list-style: none;
+}
+
+.company-logo {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}

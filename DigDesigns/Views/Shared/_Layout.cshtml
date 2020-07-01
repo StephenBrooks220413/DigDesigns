@@ -6,6 +6,8 @@
     <title>@ViewData["Title"] - DigDesigns</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,7 +18,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" style="color: teal;">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
@@ -30,15 +32,49 @@
             </div>
         </nav>
     </header>
+    <div class="company-logo">
+        <img src="https://document-export.canva.com/DADfAYpkId8/16/thumbnail/0001-6155757011.png" width="60" height="60" alt="Alternate Text" />
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - DigDesigns - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer>
+        <div class="container" style="color: teal">
+            <h3 style="font-family: 'Dancing Script', cursive;" class="text-center">Web Author: Stephen Brooks</h3>
+            <div class="row">
+                <div class="col-md text-center" style="margin-top: 10px;">
+                    <p>
+                        <ul>
+                            <li>Web Design - asp.Net core frameworks</li>
+                            <li>Posters - Adobe InDesign & PhotoShop</li>
+                            <li>Brochures - Adobe InDesign & PhotoShop</li>
+                            <li>Hosting - Using Microsoft Azure</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md text-center" style="margin-top: 20px;">
+                    &copy; 2020 - DigDesigns - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    <h3>Licensed Web Designs</h3>
+                    <address>
+                        <ul>
+                            <li>Duncan, Oklahoma</li>
+                            <li>580-309-0236</li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="col-md text-center" style="margin-top: 10px;">
+                    <h3>Policies</h3>
+                    <p>
+                        I create templates for sale, offer ongoing service,
+                        SEO optimizations, and storage for your clients. I 
+                        do not garuantee your success because that relies
+                        on you, but I can offer guidance.
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
