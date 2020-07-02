@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DigDesigns.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DigDesigns.Controllers
 {
@@ -19,6 +20,17 @@ namespace DigDesigns.Controllers
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Catalog()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Members()
         {
             return View();
         }

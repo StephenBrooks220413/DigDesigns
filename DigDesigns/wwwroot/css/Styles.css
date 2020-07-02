@@ -30,3 +30,19 @@ li {
     top: 80px;
     right: 20px;
 }
+
+.privacy-img {
+    width: 60%;
+    max-height: 310px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.privacy-form {
+    height: auto;
+    background-color: darkgray;
+    color: teal;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 70%;
+}
