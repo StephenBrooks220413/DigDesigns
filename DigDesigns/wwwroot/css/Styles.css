@@ -47,3 +47,10 @@ li {
     width: 70%;
     margin-top: 75px;
 }
+
+.MemberImg {
+    width: 50%;
+    max-height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}

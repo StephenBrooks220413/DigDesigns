@@ -53,7 +53,7 @@ namespace DigDesigns
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            //app.UseMiddleware();
             app.UseRouting();
 
             app.UseAuthentication();
