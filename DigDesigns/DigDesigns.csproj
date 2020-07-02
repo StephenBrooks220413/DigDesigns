@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -12,13 +12,14 @@
     <RepositoryUrl>https://github.com/StephenBrooks220413/DigDesigns.git</RepositoryUrl>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <PackageProjectUrl>https://asp-developer-digartworks-development.azurewebsites.net/</PackageProjectUrl>
+    <ApplicationInsightsResourceId>/subscriptions/78bef95e-c4c5-4c38-bae1-2a305638c5e9/resourceGroups/developer_asp/providers/microsoft.insights/components/asp-developer</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Bower" Version="1.3.11" />
     <PackageReference Include="BundlerMinifier.Core" Version="3.2.449" />
     <PackageReference Include="Grunt" Version="0.1.13" />
-    <PackageReference Include="Gulp.js" Version="1.0.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.13.1" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
