@@ -54,3 +54,8 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+.container {
+    background: rgb(89,207,198);
+    background: radial-gradient(circle, rgba(89,207,198,0.9732842966288078) 0%, rgba(240,172,3,0.5609594179468662) 49%);
+}
