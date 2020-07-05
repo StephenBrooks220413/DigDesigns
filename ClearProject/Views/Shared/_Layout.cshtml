@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Members", "Members", "Home")</li>
+                    <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+                    <li>@Html.ActionLink("Catalog", "Catalog", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="container" style="color: teal">
+                <h3 style="font-family: 'Dancing Script', cursive;" class="text-center">Web Author: Stephen Brooks</h3>
+                <div class="row">
+                    <div class="col-md text-center" style="margin-top: 10px;">
+                        <p>
+                            <ul>
+                                <li>Web Design - asp.Net core frameworks</li>
+                                <li>Posters - Adobe InDesign & PhotoShop</li>
+                                <li>Brochures - Adobe InDesign & PhotoShop</li>
+                                <li>Hosting - Using Microsoft Azure</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md text-center" style="margin-top: 20px;">
+                        &copy; 2020 - DigDesigns - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <h3>Licensed Web Designs</h3>
+                        <address>
+                            <ul>
+                                <li>Duncan, Oklahoma</li>
+                                <li>580-309-0236</li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="col-md text-center" style="margin-top: 10px;">
+                        <h3>Policies</h3>
+                        <p>
+                            I create templates for sale, offer ongoing service,
+                            SEO optimizations, and storage for your clients. I
+                            do not garuantee your success because that relies
+                            on you, but I can offer guidance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

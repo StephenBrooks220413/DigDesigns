@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigDesigns", "DigDesigns\DigDesigns.csproj", "{FFA5B27B-927B-4925-B69E-7DF422E50224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearProject", "ClearProject\ClearProject.csproj", "{8D633304-C453-4B80-A752-1DC06B44DD1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FFA5B27B-927B-4925-B69E-7DF422E50224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFA5B27B-927B-4925-B69E-7DF422E50224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFA5B27B-927B-4925-B69E-7DF422E50224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D633304-C453-4B80-A752-1DC06B44DD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D633304-C453-4B80-A752-1DC06B44DD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D633304-C453-4B80-A752-1DC06B44DD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D633304-C453-4B80-A752-1DC06B44DD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

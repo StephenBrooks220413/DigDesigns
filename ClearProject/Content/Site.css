@@ -1,0 +1,158 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+ /*Additional CSS*/
+.bg-header {
+    background: rgb(240,172,3);
+    background: radial-gradient(circle, rgba(240,172,3,0.5609594179468662) 38%, rgba(243,226,176,0.9732842966288078) 54%);
+    width: 100%;
+    height: 30vh;
+    padding-top: 140px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 190px;
+    margin-top: 190px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+body {
+    background: url(../assets/SleekDesigns.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+}
+
+.company-logo {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+.privacy-img {
+    width: 60%;
+    max-height: 310px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.privacy-form {
+    height: auto;
+    background-color: darkgray;
+    color: teal;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 70%;
+    margin-top: 75px;
+}
+
+.MemberImg {
+    width: 50%;
+    max-height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1 {
+    background: rgb(89,207,198);
+    background: radial-gradient(circle, rgba(89,207,198,0.9732842966288078) 0%, rgba(240,172,3,0.5609594179468662) 49%);
+}
